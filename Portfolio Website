@@ -1,0 +1,157 @@
+## Portfolio Website :
+Create a portfolio website using HTML and CSS to showcase your skills and accomplishments.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        /* New styles for corner logo and buttons */
+        .corner-logo {
+    position: fixed;
+    top: 10px; /* Adjust the top value as needed */
+    left: 10px; /* Adjust the left value as needed */
+    z-index: 1000;
+        }
+
+        .corner-buttons {
+            position: fixed;
+            top: 50%;
+            right: 0;
+            margin-right: 20px;
+            transform: translateY(-50%);
+            z-index: 1000;
+        }
+
+        .corner-buttons button {
+            margin-bottom: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            display: block;
+            width: 100px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Corner logo -->
+    <div class="corner-logo">
+        <img src="C:\Users\K.Duryodhana\Downloads\th.jpg" alt="Your Logo" width="50" height="50">
+    </div>
+
+    <!-- Corner buttons -->
+    <div class="corner-buttons">
+        <button>Contact</button>
+        <button>Portfolio</button>
+    </div>
+
+    <header>
+        <h1>Your Name</h1>
+        <p>Student portel</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>Hello, I'm Divya Gudiya,studying B.Tech final year at RGUKT-Srikakulam in the stream of Computer Science and Engineering. a passionate and dedicated web developer with a keen eye for creating dynamic and visually appealing online experiences. My journey in web development began with a curiosity about the endless possibilities the digital world offers. Over the years, I have honed my skills in HTML5, CSS3, and JavaScript, allowing me to craft websites that seamlessly blend creativity with functionality..</p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <h3>Web Technologies</h3>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+<section>
+    <h3>Languages</h3>
+    <ul>
+        <li>Python</li>
+        <li>Java</li>
+    </ul>
+</section>
+
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <h3>Project 1</h3>
+                <p> Our community.</p>
+            </li>
+            <li>
+                <h3>Project 2</h3>
+                <p>Image clear vision </p>
+            </li>
+            <li>
+               <h3>Project 3</h3>
+               <p>Voting System</p>
+            <!-- Add more projects as needed -->
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>Email: gudiyadivya2003@gmail.com</p>
+        <p>LinkedIn: linkedin.com/in/divyagudiya</p>
+        <!-- Add more contact information as needed -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Portfolio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
