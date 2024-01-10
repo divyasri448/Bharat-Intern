@@ -1,0 +1,197 @@
+# Homepage of Netflix:
+A simple website having similar homepage that of Netflix using using HTML and CSS.
+
+<!DOCUMMENT html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+           margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            background-image:"C:\Users\K.Duryodhana\Downloads\wp3160279.jpg"; /* Replace with your background image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat
+        }
+         header {
+            background-color: transparent;
+            padding: 1rem;
+            text-align: center;
+            position: relative;
+          }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #111;
+            padding: 0.2rem;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        section {
+            padding: 2rem;
+        }
+
+        .movie {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .movie-item {
+            flex: 1 1 100px;
+            text-align: center;
+        }
+
+        .movie-item img {
+            width: 90%;
+            height: 200;
+        }
+       .corner-logo {
+    position: fixed;
+    top: 10px; /* Adjust the top value as needed */
+    left: 10px; /* Adjust the left value as needed */
+    z-index: 1000;
+        }
+
+    .signin-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+        }
+
+        .signin-container input {
+            padding: 10px;
+            margin: 10px;
+            width: 80%;
+        }
+
+        .signin-container button {
+            padding: 10px;
+            margin: 10px;
+            width: 82%;
+            background-color: #e50914;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+    <title>Netflix Clone</title>
+</head>
+<body>
+    <!-- Corner logo -->
+    <div class="corner-logo">
+        <img src="C:\Users\K.Duryodhana\Downloads\Netflix-Logo.png"alt="Your Logo" width="150" height="70">
+    </div>
+    <header>
+        <h1>Netflix</h1>
+    </header>
+    
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">TV Shows</a>
+        <a href="#">Movies</a>
+        <a href="#">New & Popular</a>
+        <a href="#">My List</a>
+    </nav>
+
+    <section>
+        <h2>Popular on Netflix</h2>
+        <div class="movie">
+            <div class="movie-item">
+                <img src="C:\Users\K.Duryodhana\Downloads\1006MAD-Move1.jpg" alt="MAD">
+                <p>MAD</p>
+            </div>
+            <div class="movie-item">
+                <img src="C:\Users\K.Duryodhana\Downloads\th (1).jpg"alt="Movie 2">
+                <p>CHINNA</p>
+            </div>
+            <!-- Add more movie items as needed -->
+          <div class="movie">
+            <div class="movie-item">
+                <img src="C:\Users\K.Duryodhana\Downloads\Poster-of-Keedaa-Cola.webp"alt="Movie 1">
+                <p>KEEDA COLA</p>
+            </div>
+        <div class="movie">
+            <div class="movie-item">
+                <img src="C:\Users\K.Duryodhana\Downloads\100036868.webp"alt="Movie 1">
+                <p>POLIMERA 2</p>
+            </div>
+    </div>
+       
+   
+    </section>
+
+
+    <section>
+        <h2>Thriller Movies</h2>
+        <div class="movie">
+            <div class="movie-item">
+                <img src="C:\Users\K.Duryodhana\Downloads\maxresdefault.jpg" alt="Movie 1">
+                <p>KHUFIYA</p>
+            </div>
+            <div class="movie-item">
+                <img src="C:\Users\K.Duryodhana\Downloads\NOWHERE-2023-netflix.jpg"alt="Movie 2">
+                <p>NOW WHERE</p>
+            </div>
+            <!-- Add more movie items as needed -->
+          <div class="movie">
+            <div class="movie-item">
+                <img src="C:\Users\K.Duryodhana\Downloads\the-elephant-whisperer-461870.webp" alt="Movie 1">
+                <p>THE ELEPHANT WHISPEPER</p>
+            </div>
+        <div class="movie">
+            <div class="movie-item">
+                <img src="C:\Users\K.Duryodhana\Downloads\true-spirit-poster-netflix-movie-coming-to-netflix-in-february-2023.png"alt="Movie 1">
+                <p>TRUE SPIRIT</p>
+            </div>
+    </div>
+       
+   
+    </section>
+  <section>
+    <h2>Horror Moview</h2>
+     <div class= "movie">
+         <div class = "movie-item">
+             <img src ="C:\Users\K.Duryodhana\Downloads\MV5BNjZlOGVhZDctODU2Yi00NzcyLWFlNmItZGQ2ZDc2NTIwNGMyXkEyXkFqcGdeQXVyNzkwMTYyMTI@._V1_.jpg"alt="NUN 2">
+             <p>NUN 2</p>
+         </div>
+       <div class="movie">
+            <div class="movie-item">
+                <img src="C:\Users\K.Duryodhana\Downloads\5bf1c32c017c21412909f273_598191033fd40e0001129b77_horror-blog-conjuring.jpeg" alt="Movie 1">
+                <p>THE CONJURING 2 </p>
+            </div>
+         <div class="movie">
+            <div class="movie-item">
+                <img src="C:\Users\K.Duryodhana\Downloads\Dont_Breath_Posters.jpg" alt="Movie 1">
+                <p>DONT BREATH POSTERS </p>
+            </div>
+         <div class="movie">
+            <div class="movie-item">
+                <img src="C:\Users\K.Duryodhana\Downloads\b8ftTPtdlIWhrExuJEOWWrUUYz7.jpg" alt="Movie 1">
+                <p>OFF SPRING </p>
+            </div>
+        <div class="movie">
+            <div class="movie-item">
+                <img src="C:\Users\K.Duryodhana\Downloads\Blend Textures to Create a Horror Movie Poster in Photoshop.jpg" alt="Movie 1">
+                <p>BLEND TEXTURES </p>
+            </div>
+      
+    
+</body>
+</html>
+
